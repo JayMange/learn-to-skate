@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,31 @@
 }
 
 body {
-    background-color: #3a3a3a;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    color: #fff;
+    background-color: #301934;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14x;
+    line-height: 18px;
+    color: #fff;
+    font-family: "Archivo Black", sans-serif;
 }
 
 .wrap {
@@ -32,7 +58,7 @@ ul li {
 ul li a {
     display: block;
     text-decoration: none;
-    font-family: arial;
+    font-family: Roboto, sans-serif;
     color: #3a3a3a;
     padding: 0 20px;
 }
