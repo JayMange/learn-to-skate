@@ -15,7 +15,7 @@ nav {
 }
 
 ul {
-    
+    float: right;
 }
 
 ul li {
@@ -31,4 +31,8 @@ ul li a {
     font-family: arial;
     color: #3a3a3a;
     padding: 0 20px;
+}
+
+ul li a:hover {
+    color: #fff;
 }
